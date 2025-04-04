@@ -1,0 +1,56 @@
+@media(max-width:1420px){
+    .menu__link{
+        font-size: 1.65vw;
+    }
+    .banner__bottom_text{
+        font-size: 1.95vw;
+    }
+}
+@media(max-width:1300px){
+    .banner__title{
+        font-size: 6.5vw;
+    }
+    .menu__link{
+        font-size: 1.75vw;
+    }
+    .banner__bottom_text{
+        font-size: 1.95vw;
+    }
+}
+@media(max-width:1000px){
+    .menu__link{
+        font-size: 1.95vw;
+    }
+    .banner__bottom_text{
+        font-size: 1.95vw;
+    }
+}
+
+
+@media(max-width:905px){
+    .banner__title{
+        font-size: 10vw;
+    }
+    .banner__text{
+        font-size: 2.7vw;
+    }
+    .header{
+        display: none;
+    }
+    .hamburger-menu{
+        display: inline;
+    }
+    .banner__btn{
+        cursor: pointer;
+        padding: 15px 60px;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #000;
+        font-family: 'Futura PT Book';
+        transition: 0.7s;
+    }
+}
+@media(max-width:650px){
+    
+}
