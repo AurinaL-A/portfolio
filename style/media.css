@@ -1,45 +1,22 @@
-@media(max-width:1420px){
-    .menu__link{
-        font-size: 1.65vw;
-    }
-    .banner__bottom_text{
-        font-size: 1.95vw;
-    }
-}
-@media(max-width:1300px){
-    .banner__title{
-        font-size: 6.5vw;
-    }
-    .menu__link{
-        font-size: 1.75vw;
-    }
-    .banner__bottom_text{
-        font-size: 1.95vw;
-    }
-}
+
 @media(max-width:1000px){
     .menu__link{
-        font-size: 1.95vw;
+        font-size: 20px;
     }
     .banner__bottom_text{
-        font-size: 1.95vw;
+        font-size: 20px;
     }
 }
 
 
 @media(max-width:905px){
     .banner__title{
-        font-size: 10vw;
+        font-size: 92px;
     }
     .banner__text{
-        font-size: 2.7vw;
+        font-size: 28px;
     }
-    .header{
-        display: none;
-    }
-    .hamburger-menu{
-        display: inline;
-    }
+    
     .banner__btn{
         cursor: pointer;
         padding: 15px 60px;
@@ -51,6 +28,30 @@
         transition: 0.7s;
     }
 }
+@media(max-width:750px){
+    .header{
+        display: none;
+    }
+    .hamburger-menu{
+        display: inline;
+    }
+}
 @media(max-width:650px){
-    
+    .banner__title{
+        font-size: 72px;
+    }
+    .banner__text{
+        font-size: 24px;
+    }
+}
+@media(max-width:500px){
+    .banner__title{
+        font-size: 48px;
+    }
+    .banner__text{
+        font-size: 20px;
+    }
+    .banner__bottom_text{
+        font-size: 18px;
+    }
 }

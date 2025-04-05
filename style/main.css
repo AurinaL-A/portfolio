@@ -127,7 +127,7 @@ a{
     list-style: none;
     font-family: 'Futura PT Book';
     font-weight: 400;
-    font-size: 1.25vw;
+    font-size: 24px;
     text-align: center;
     color: #ffffff;
     transition: 0.7s;
@@ -145,7 +145,7 @@ a{
     text-align: center;
     font-family: 'Civons Regular';
     font-weight: 400;
-    font-size: 6.5vw;
+    font-size: 128px;
     text-align: center;
     color: #fff;
 }
@@ -159,7 +159,7 @@ a{
 .banner__text{
     font-family: 'Civons Regular';
     font-weight: 400;
-    font-size: 2.083vw;
+    font-size: 40px;
     text-align: center;
     color: #fff;
     padding-bottom: 53px;
@@ -192,7 +192,7 @@ a{
     font-family: 'Futura PT Book';
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 1.25vw;
+    font-size: 24px;
     text-align: center;
     color: #fff;
 }
