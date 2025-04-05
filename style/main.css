@@ -1,4 +1,4 @@
-
+@import url('https://fonts.cdnfonts.com/css/civons');
 #mouse-trail {
     background: #fff;
     background: linear-gradient(-90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
@@ -81,7 +81,7 @@ a{
 }
 .banner__title{
     text-align: center;
-    font-family: 'Civons Regular';
+    font-family: 'Civons', sans-serif;
     font-weight: 400;
     font-size: 128px;
     text-align: center;
@@ -95,7 +95,7 @@ a{
     justify-content: center;
 }
 .banner__text{
-    font-family: 'Civons Regular';
+    font-family: 'Civons', sans-serif;
     font-weight: 400;
     font-size: 40px;
     text-align: center;
