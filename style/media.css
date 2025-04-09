@@ -27,6 +27,14 @@
         font-family: 'Futura PT Book';
         transition: 0.7s;
     }
+    .aboutme__row{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .aboutme__text{
+        max-width: 100%;
+        text-align: justify;
+    }
 }
 @media(max-width:750px){
     .header{
@@ -53,5 +61,14 @@
     }
     .banner__bottom_text{
         font-size: 18px;
+    }
+    .aboutme__text{
+        font-size: 20px;
+    }
+    .aboutme__title{
+        font-size: 20px;
+    }
+    .aboutme__title_block{
+        gap: 1px;
     }
 }
