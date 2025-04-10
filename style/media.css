@@ -113,5 +113,11 @@
     .title{
         font-size: 20px;
     }
+    .stroke__item {
+        width: 150px;
+        height: 41px;
+        padding: 10px 25px;
+        font-size: 20px;
+    }
 
 }
