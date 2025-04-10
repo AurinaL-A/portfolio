@@ -227,3 +227,43 @@ a{
     display: flex;
     justify-content: right;
 }
+
+.stroke {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ 
+.stroke__item {
+    
+    width: 240px;
+    height: 61px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 11px 0 rgba(0, 0, 0, 0.1), 15px 14px 21px 0 rgba(0, 0, 0, 0.09), 34px 31px 28px 0 rgba(0, 0, 0, 0.05), 60px 56px 33px 0 rgba(0, 0, 0, 0.01), 94px 88px 36px 0 rgba(0, 0, 0, 0);
+    padding: 15px 73px;
+    background: #f16645;
+    flex-shrink: 0;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    animation: running-animation 10s linear infinite;
+    white-space: nowrap;
+}
+ 
+@keyframes running-animation {
+    0% {
+        transform: translateZ(0);
+    }
+ 
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
