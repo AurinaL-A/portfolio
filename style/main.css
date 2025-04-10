@@ -238,10 +238,8 @@ a{
 }
  
 .stroke__item {
-    
     width: 240px;
     height: 61px;
-
     display: flex;
     justify-content: center;
     align-items: center;
