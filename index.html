@@ -230,5 +230,37 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EasePack.min.js"></script>
 <script src="./script/mouse.js"></script>
-
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuToggle = document.getElementById('menu__toggle');
+      const menuBtn = document.querySelector('.menu__btn');
+      const menuItems = document.querySelectorAll('.menu__item');
+  
+      // Предотвращаем прокрутку при клике на кнопку меню
+      menuBtn.addEventListener('click', function(event) {
+        event.preventDefault(); // Предотвращаем прокрутку
+        menuToggle.checked = !menuToggle.checked; // Инвертируем состояние checkbox
+      });
+  
+      menuItems.forEach(item => {
+        item.addEventListener('click', function(event) {
+          event.preventDefault();
+  
+          menuToggle.checked = false; // Закрываем меню
+  
+          const targetId = this.getAttribute('href');
+  
+          if (targetId && targetId !== "#") {
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+          }
+        });
+      });
+    });
+  </script>
 </html>
