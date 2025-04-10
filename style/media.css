@@ -68,6 +68,19 @@
         text-align: justify;
     }
 }
+@media(max-width:860px){
+    .progress_work__card{
+        width: 100%;
+    }
+    .progress_work_text {
+        max-width: 100%;
+    }
+    .progress_work__row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 @media(max-width:750px){
     .header{
         display: none;
@@ -118,6 +131,17 @@
         height: 41px;
         padding: 10px 25px;
         font-size: 20px;
+    }
+    .progress_work__card_number{
+        font-size: 48px;
+        width: 80px;
+        height: 80px;
+    }
+    .progress_work_text{
+        font-size: 18px;
+    }
+    .progress_work__card{
+        gap: 10px;
     }
 
 }

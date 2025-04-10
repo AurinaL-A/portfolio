@@ -147,6 +147,7 @@ a{
     justify-content: space-between;
 }
 .title{
+    white-space: nowrap;
     min-width: 105px;
     font-weight: 400;
     font-size: 24px;
@@ -264,4 +265,53 @@ a{
     100% {
         transform: translate3d(-100%, 0, 0);
     }
+}
+.progress_work{
+    padding-bottom: 50px;
+}
+.progress_work__row{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titlebloks_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.progress_work__card_number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Futura PT Bold';
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+    background: #dbdbdb;
+    width: 100px;
+    height: 100px;
+    padding: 28px 14px;
+    box-sizing: border-box;
+}
+.progress_work__card{
+    display: flex;
+    gap: 20px;
+    width: 400px;
+}
+.progress_work__card_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.progress_work_text{
+    max-width: 277px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 128%;
+    letter-spacing: -0.03em;
+    color: #f26547;
 }
