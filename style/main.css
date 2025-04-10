@@ -230,6 +230,7 @@ a{
 }
 
 .stroke {
+   
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
@@ -239,6 +240,7 @@ a{
 }
  
 .stroke__item {
+     z-index: 0;
     width: 240px;
     height: 61px;
     display: flex;
