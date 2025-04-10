@@ -90,6 +90,12 @@
     .skills__card{
         width: 100%;
     }
+    .stroke__item {
+        width: 180px;
+        height: 41px;
+        padding: 15px 43px;
+        font-size: 20px;
+    }
 }
 @media(max-width:500px){
     .banner__title{
