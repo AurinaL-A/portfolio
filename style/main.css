@@ -195,19 +195,26 @@ a{
     max-width: 574px;
 }
 .skills__card{
+    cursor: pointer;
     padding-bottom: 17px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 277px;
-    height: 287px
+    height: 287px;
+    transition: 0.7s ease; /* Добавлено для плавного перехода */
 }
 .skills__card_number{
     font-weight: 400;
     font-size: 20px;
     letter-spacing: -0.03em;
     color: #292f3d;
+    
 }
+.skills__card:hover{
+    transform: scale(1.03);
+}
+
 .skills__card_text{
     font-weight: 400;
     font-size: 20px;
@@ -299,6 +306,12 @@ a{
     height: 100px;
     padding: 28px 14px;
     box-sizing: border-box;
+    transition: box-shadow 0.3s ease; /* Добавлено для плавного перехода */
+    cursor: pointer;
+}
+.progress_work__card_number:hover,
+.progress_work__card_number:focus {
+    box-shadow: 4px 4px 11px 0 rgba(0, 0, 0, 0.1), 15px 14px 21px 0 rgba(0, 0, 0, 0.09), 34px 31px 28px 0 rgba(0, 0, 0, 0.05), 60px 56px 33px 0 rgba(0, 0, 0, 0.01), 94px 88px 36px 0 rgba(0, 0, 0, 0);
 }
 .progress_work__card{
     display: flex;
@@ -370,9 +383,17 @@ a{
     gap: 20px;
 }
 .porfolio_img{
+    transition: 0.7s ease; /* Добавлено для плавного перехода */
     box-shadow: 8px 6px 22px 0 rgba(0, 0, 0, 0.05), 34px 22px 41px 0 rgba(0, 0, 0, 0.04), 76px 50px 55px 0 rgba(0, 0, 0, 0.03), 135px 89px 65px 0 rgba(0, 0, 0, 0.01), 211px 140px 71px 0 rgba(0, 0, 0, 0);
+}
+.porfolio_img:hover{
+    transform: scale(1.03);
 }
 .porfolio_img2{
     width: 399px;
     height: 566px;
+    transition: 0.7s ease; /* Добавлено для плавного перехода */
+}
+.porfolio_img2:hover{
+    transform: scale(1.03);
 }
