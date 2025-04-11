@@ -132,7 +132,6 @@
                 </div>
         </section>
         <section class="services" id="services">
-
             <div class="services__row">
                 <div class="container">
                     <div class="titlebloks">
@@ -158,14 +157,14 @@
             <div class="container">
                 <div class="titlebloks_right">
                     <div class="titlebloks">
-                    <svg class="line_title" width="469" height="1" viewBox="0 0 469 1" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0.5L469 0.5" stroke="black" />
-                    </svg>
-                    <h2 class="title">Ход работы</h2>
+                        <svg class="line_title" width="469" height="1" viewBox="0 0 469 1" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0.5L469 0.5" stroke="black" />
+                        </svg>
+                        <h2 class="title">Ход работы</h2>
+                    </div>
                 </div>
-                </div>
-                
+
                 <div class="progress_work__row">
                     <div class="progress_work__card">
                         <div class="progress_work__card_number">
@@ -182,7 +181,8 @@
                         </div>
                         <div class="progress_work__card_info">
                             <p class="title">ПОДБОР РЕФЕРЕНСОВ</p>
-                            <p class="progress_work_text">Сбор необходимых материалов: брендбук, текстовый контент, изображения.</p>
+                            <p class="progress_work_text">Сбор необходимых материалов: брендбук, текстовый контент,
+                                изображения.</p>
                         </div>
                     </div>
                     <div class="progress_work__card">
@@ -191,7 +191,8 @@
                         </div>
                         <div class="progress_work__card_info">
                             <p class="title">ПРОТОТИПИРОВАНИЕ</p>
-                            <p class="progress_work_text">Генерация нескольких вариантов концепций дизайна и структуры сайта.</p>
+                            <p class="progress_work_text">Генерация нескольких вариантов концепций дизайна и структуры
+                                сайта.</p>
                         </div>
                     </div>
                     <div class="progress_work__card">
@@ -200,7 +201,8 @@
                         </div>
                         <div class="progress_work__card_info">
                             <p class="title">ВИЗУАЛИЗАЦИЯ</p>
-                            <p class="progress_work_text">Преобразование прототипов в  дизайн-макеты с использованием фирменного стиля и UI-элементов.</p>
+                            <p class="progress_work_text">Преобразование прототипов в дизайн-макеты с использованием
+                                фирменного стиля и UI-элементов.</p>
                         </div>
                     </div>
                     <div class="progress_work__card">
@@ -209,7 +211,8 @@
                         </div>
                         <div class="progress_work__card_info">
                             <p class="title">УТВЕРЖДЕНИЕ</p>
-                            <p class="progress_work_text">Представление дизайн-макетов клиенту, получение обратной связи и внесение правок.</p>
+                            <p class="progress_work_text">Представление дизайн-макетов клиенту, получение обратной связи
+                                и внесение правок.</p>
                         </div>
                     </div>
                     <div class="progress_work__card">
@@ -218,12 +221,35 @@
                         </div>
                         <div class="progress_work__card_info">
                             <p class="title">ВЕРСТКА САЙТА</p>
-                            <p class="progress_work_text">Если клиенту потребуется услуга верстки сайта, так же предоставлю полный код всей работы.</p>
+                            <p class="progress_work_text">Если клиенту потребуется услуга верстки сайта, так же
+                                предоставлю полный код всей работы.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="portfolio">
+            <div class="container">
+                <div class="titlebloks">
+                    <h2 class="title">Портфолио</h2>
+                    <svg class="line_title" width="469" height="1" viewBox="0 0 469 1" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0.5L469 0.5" stroke="black" />
+                    </svg>
+                </div>
+                <div class="portfolio__row">
+                    <div class="portfolio_info">
+                        <div class="portfolio_infoleft">
+                            <p class="portfolio_info_title">WEB-SITE</p>
+                            <p class="portfolio_info_text">В этом разделе представлены веб-сайты, разработанные с учетом последних тенденций в веб-дизайне и ориентированные на максимальное удобство пользователя.</p>    
+                        </div>
+                        <img class="arrow_port" src="./image/arrow_circle.svg" alt="arrow_circle">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -231,36 +257,37 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EasePack.min.js"></script>
 <script src="./script/mouse.js"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const menuToggle = document.getElementById('menu__toggle');
-      const menuBtn = document.querySelector('.menu__btn');
-      const menuItems = document.querySelectorAll('.menu__item');
-  
-      // Предотвращаем прокрутку при клике на кнопку меню
-      menuBtn.addEventListener('click', function(event) {
-        event.preventDefault(); // Предотвращаем прокрутку
-        menuToggle.checked = !menuToggle.checked; // Инвертируем состояние checkbox
-      });
-  
-      menuItems.forEach(item => {
-        item.addEventListener('click', function(event) {
-          event.preventDefault();
-  
-          menuToggle.checked = false; // Закрываем меню
-  
-          const targetId = this.getAttribute('href');
-  
-          if (targetId && targetId !== "#") {
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-          }
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.getElementById('menu__toggle');
+        const menuBtn = document.querySelector('.menu__btn');
+        const menuItems = document.querySelectorAll('.menu__item');
+
+        // Предотвращаем прокрутку при клике на кнопку меню
+        menuBtn.addEventListener('click', function (event) {
+            event.preventDefault(); // Предотвращаем прокрутку
+            menuToggle.checked = !menuToggle.checked; // Инвертируем состояние checkbox
         });
-      });
+
+        menuItems.forEach(item => {
+            item.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                menuToggle.checked = false; // Закрываем меню
+
+                const targetId = this.getAttribute('href');
+
+                if (targetId && targetId !== "#") {
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
     });
-  </script>
+</script>
+
 </html>

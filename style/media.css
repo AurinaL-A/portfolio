@@ -38,6 +38,9 @@
     .skills__right{
         align-items: center;
     }
+    .portfolio_info_title {
+        padding: 40px 73px;
+    }
 }
 
 
@@ -80,6 +83,10 @@
         align-items: center;
         justify-content: center;
     }
+    .arrow_port{
+        display: none;
+    }
+    
 }
 @media(max-width:750px){
     .header{
@@ -87,6 +94,15 @@
     }
     .hamburger-menu{
         display: inline;
+    }
+    .portfolio_infoleft{
+        flex-wrap: wrap;
+    }
+    .portfolio_info_title{
+        width: 100%;
+    }
+    .portfolio_info_text{
+        text-align: justify;
     }
 }
 @media(max-width:650px){
@@ -142,6 +158,9 @@
     }
     .progress_work__card{
         gap: 10px;
+    }
+    .portfolio_info_title{
+        font-size: 20px;
     }
 
 }
