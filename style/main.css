@@ -111,18 +111,18 @@ a{
     cursor: pointer;
     border: none;
     box-sizing: border-box;
-    background-color: #cabbb6;
+    background: #f16645;
     padding: 15px 73px;
     font-weight: 400;
     font-size: 24px;
     text-align: center;
-    color: #000;
+    color: #ffffff;
     font-family: 'Futura PT Book';
     transition: 0.7s;
 }
 .banner__btn:hover{
     background-color: #8c3227;
-    color: #cabbb6;
+    color: #ffffff;
 }
 .banner__bottom{
     padding-top: 160px;
