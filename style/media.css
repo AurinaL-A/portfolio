@@ -2,6 +2,10 @@
     .porfolio_img{
         width: 500px;
     }
+    .porfolio_img2{
+        width: 300px;
+        height: 470px;
+    }
 }
 
 @media(max-width:1250px){
@@ -23,6 +27,7 @@
     .porfolio_img{
         width: 400px;
     }
+    
 }
 
 @media(max-width:1000px){
@@ -49,6 +54,10 @@
     }
     .portfolio_info_title {
         padding: 40px 73px;
+    }
+    .porfolio_img2{
+        width: 300px;
+        height: 470px;
     }
 }
 
@@ -120,7 +129,7 @@
         width: 100%;
     }
 }
-@media(max-width:650px){
+@media(max-width:665px){
     .banner__title{
         font-size: 72px;
     }
@@ -139,6 +148,16 @@
         height: 41px;
         padding: 15px 43px;
         font-size: 20px;
+    }
+    .porfolio_img2{
+        width: 250px;
+        height: 400px;
+    }
+}
+@media(max-width:560px){
+    .porfolio_img2{
+        width: 100%;
+        height: 100%;
     }
 }
 @media(max-width:500px){

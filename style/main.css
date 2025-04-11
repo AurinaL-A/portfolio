@@ -351,17 +351,26 @@ a{
     gap: 20px;
 }
 .portfolio__row{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .portfolio_info{
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .porfolio_gallery{
-    padding-top: 20px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+.porfolio_img{
+    box-shadow: 8px 6px 22px 0 rgba(0, 0, 0, 0.05), 34px 22px 41px 0 rgba(0, 0, 0, 0.04), 76px 50px 55px 0 rgba(0, 0, 0, 0.03), 135px 89px 65px 0 rgba(0, 0, 0, 0.01), 211px 140px 71px 0 rgba(0, 0, 0, 0);
+}
+.porfolio_img2{
+    width: 399px;
+    height: 566px;
 }
