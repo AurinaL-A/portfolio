@@ -358,6 +358,10 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.arrow_port{
-
+.porfolio_gallery{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }

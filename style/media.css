@@ -1,3 +1,9 @@
+@media(max-width:1284px){
+    .porfolio_img{
+        width: 500px;
+    }
+}
+
 @media(max-width:1250px){
     .skills_me{
         width: 100%;
@@ -13,6 +19,9 @@
 
     .skills__right{
         gap: 120px;
+    }
+    .porfolio_img{
+        width: 400px;
     }
 }
 
@@ -86,6 +95,9 @@
     .arrow_port{
         display: none;
     }
+    .porfolio_img{
+        width: 345px;
+    }
     
 }
 @media(max-width:750px){
@@ -103,6 +115,9 @@
     }
     .portfolio_info_text{
         text-align: justify;
+    }
+    .porfolio_img{
+        width: 100%;
     }
 }
 @media(max-width:650px){
