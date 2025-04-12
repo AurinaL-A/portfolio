@@ -27,6 +27,10 @@
     .porfolio_img{
         width: 400px;
     }
+    .footer__row{
+        justify-content: center;
+        gap: 20px;
+    }
     
 }
 
@@ -58,6 +62,9 @@
     .porfolio_img2{
         width: 300px;
         height: 470px;
+    }
+    .line_mini1{
+        display: none;
     }
 }
 
@@ -153,6 +160,7 @@
         width: 250px;
         height: 400px;
     }
+  
 }
 @media(max-width:560px){
     .porfolio_img2{
@@ -194,6 +202,9 @@
         gap: 10px;
     }
     .portfolio_info_title{
+        font-size: 20px;
+    }
+    .footer__item_text{
         font-size: 20px;
     }
 

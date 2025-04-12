@@ -397,3 +397,25 @@ a{
 .porfolio_img2:hover{
     transform: scale(1.03);
 }
+
+.footer__row{
+    border: 1px solid #dbdbdb;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer__item_text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    text-transform: lowercase;
+    color: #292f3d;
+}
+.footer__item{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
