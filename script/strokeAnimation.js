@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     track.innerHTML += track.innerHTML;
   
     let pos = 0;
-    const speed = 0.5;
+    const speed = 1;
     let running = true;
   
     viewport.addEventListener('mouseenter', () => running = false);
