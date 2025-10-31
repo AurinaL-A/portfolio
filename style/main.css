@@ -241,11 +241,19 @@ a{
 .stroke {
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 0 auto;
+    overflow: hidden;       
+    width: 100%;            
+    box-sizing: border-box;
+  }
+  
+  .stroke__track {
     display: flex;
     gap: 30px;
-    margin: 0 auto;
-    overflow: hidden;
-}
+    align-items: center;
+    white-space: nowrap;    
+    will-change: transform; 
+  }
  
 .stroke__item {
     z-index: 0;
@@ -263,7 +271,6 @@ a{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    animation: running-animation 10s linear infinite;
     white-space: nowrap;
 }
  
@@ -273,7 +280,7 @@ a{
     }
  
     100% {
-        transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%);
     }
 }
 .progress_work{
